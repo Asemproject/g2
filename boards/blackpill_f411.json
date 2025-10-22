@@ -1,0 +1,13 @@
+{
+  "build": {
+    "core": "arduino",
+    "extra_flags": "-DMCU_STM32F411xE -DSTM32F4xx -DARDUINO_ARCH_STM32",
+    "f_cpu": "100000000L",
+    "mcu": "stm32f411ceu6",
+    "variant": "BLACKPILL_F411CE"
+  },
+  "frameworks": ["arduino"],
+  "name": "BlackPill F411CE",
+  "upload": { "protocol": "stlink" },
+  "vendor": "generic"
+}
